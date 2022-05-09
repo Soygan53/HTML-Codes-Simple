@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form sayfası
+        </title>
+    </head>
+    <body style="background-color: rgb(117, 235, 21)">
+        <h1 style="color: rgb(22, 22, 26)">
+        Aşağıdaki formu uygun şekilde doldurunuz.</h1>
+        <form style="font-size: 16px">
+            <label for="name" >İsim Giriniz</label><br>
+            <input type="text" id="name" name="name" placeholder="İsim"/><br>
+            <label for="email">E-Posta Giriniz</label><br>
+            <input type="email" id="email" name="email" placeholder="E-posta"/><br>
+            <label for="password">Şifre Giriniz</label><br>
+            <input type="password" id="password" name="password" placeholder="Şifre"/><br>
+            Cinsiyet<br>Erkek<input type="radio" name="gender" value="erkek"/>
+            Kadın<input type="radio" name="gender" value="kadın"/><br>
+            Hobiler<br>
+            Teknoloji<input type="checkbox" name="hobiler" id="Teknoloji"/>
+            Müzik<input type="checkbox" name="hobiler" id="Müzik"/>
+            Sanat<input type="checkbox" name="hobiler" id="Sanat"/><br>
+            Eğitim Durumu<br>
+            <select name="egitim" id="egitim">
+                <option value="ilkokul">İlkokul</option>
+                <option value="Ortaokul">Ortaokul</option>
+                <option value="Lise">Lise</option>
+                <option value="Önlisans">Önlisans</option>
+                <option value="Lisans">Lisans</option>
+                <option value="Yüksek Lisans">Yüksek Lisans</option>
+                <option value="Doktora">Doktora</option>
+            </select><br><br>
+            <textarea name="yazı" id="yazı" cols="25" rows="3" placeholder="Buraya birşeyler yazman gerekiyir."></textarea><br>
+            <br><button type="submit">Gönder</button>
+            <input type="submit" value="Gönder Bakam"/>
+            <input type="reset" value="Sıfırla"/><br>
+        </form>
+    </body>
+</html>
